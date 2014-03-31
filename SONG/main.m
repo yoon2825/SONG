@@ -7,15 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Song.h"
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
+        NSString *pname = @"박효신";
+        NSString *sname = @"눈의꽃";
+        Song *s = [Song songWithName:pname msname:sname];
+        [s play];
     }
     return 0;
 }

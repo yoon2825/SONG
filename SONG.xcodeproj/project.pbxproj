@@ -10,6 +10,7 @@
 		4E13D1AC18E94B66007F0F12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E13D1AB18E94B66007F0F12 /* Foundation.framework */; };
 		4E13D1AF18E94B66007F0F12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E13D1AE18E94B66007F0F12 /* main.m */; };
 		4E13D1B318E94B66007F0F12 /* SONG.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4E13D1B218E94B66007F0F12 /* SONG.1 */; };
+		4E13D1BB18E94BC3007F0F12 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E13D1BA18E94BC3007F0F12 /* Song.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		4E13D1AE18E94B66007F0F12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E13D1B118E94B66007F0F12 /* SONG-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SONG-Prefix.pch"; sourceTree = "<group>"; };
 		4E13D1B218E94B66007F0F12 /* SONG.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SONG.1; sourceTree = "<group>"; };
+		4E13D1B918E94BC3007F0F12 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Song.h; path = ../Song.h; sourceTree = "<group>"; };
+		4E13D1BA18E94BC3007F0F12 /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Song.m; path = ../Song.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 		4E13D1AD18E94B66007F0F12 /* SONG */ = {
 			isa = PBXGroup;
 			children = (
+				4E13D1B918E94BC3007F0F12 /* Song.h */,
+				4E13D1BA18E94BC3007F0F12 /* Song.m */,
 				4E13D1AE18E94B66007F0F12 /* main.m */,
 				4E13D1B218E94B66007F0F12 /* SONG.1 */,
 				4E13D1B018E94B66007F0F12 /* Supporting Files */,
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E13D1BB18E94BC3007F0F12 /* Song.m in Sources */,
 				4E13D1AF18E94B66007F0F12 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
